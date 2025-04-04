@@ -12,7 +12,7 @@ function Landing() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const endpoint = isSignup ? '/signup' : '/login';
+    const endpoint = isSignup ? '//signup' : '//login';
     const body = isSignup
       ? { email, password, omi_user_id: omiUserId }
       : { email, password };
