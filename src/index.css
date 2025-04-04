@@ -1,0 +1,102 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.landing {
+  text-align: center;
+  padding: 50px;
+}
+
+.landing h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.landing form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.landing input {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.landing button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+.dashboard, .tasks, .memories, .chat {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.memory-card {
+  background: #333;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.memory-card button {
+  background: #ff4444;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.navbar {
+  padding: 10px;
+  background: #222;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.chat-history {
+  max-height: 400px;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.chat form {
+  display: flex;
+}
+
+.chat input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.chat button {
+  padding: 10px 20px;
+  background: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
